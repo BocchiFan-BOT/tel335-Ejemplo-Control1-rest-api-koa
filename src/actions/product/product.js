@@ -1,6 +1,6 @@
-
+import productsJSON from './../../data/products.json'
 let products = [] //Sustituir [] por la carga del archivo ubicado en data/products.js (importar el archivo y asignar)
-
+products=  productsJSON
 
 exports.getProducts = () => {
     return products
